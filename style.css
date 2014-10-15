@@ -1,0 +1,30 @@
+#nav {
+    margin:200px auto;
+    width:430px;
+    }
+     
+#nav ul {
+    list-style:none;
+    background-color:#64abfb;
+    }
+     
+#nav ul li {
+    display:inline-block;
+    line-height:44px;
+    }
+     
+#nav ul li a {
+    margin:10px;
+    color:#FFF;
+    padding:4px;
+    font-size:20px;
+    text-decoration:none;
+    }
+     
+#nav ul li a:hover {
+    border-bottom:3px #FFF solid;
+    }
+  
+#nav ul li .active {
+    border-bottom:3px #FFF solid;
+    }

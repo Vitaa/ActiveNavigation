@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<menu id="nav"> 
+		    <ul>
+		        <li><a href="/">Home</a></li>
+				<li><a href="/about/">About</a></li>
+				<li><a href="/clients/">Clients</a></li>
+				<li><a href="/contact/">Contact Us</a></li>
+		    </ul>
+		     
+		</menu>
+	</body>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script type="text/javascript" src="activeNavigation.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+    	$(document).activeNavigation("#nav")
+	});	
+	</script>
+</html>
