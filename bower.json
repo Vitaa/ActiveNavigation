@@ -1,29 +1,29 @@
 {
-  name: 'ActiveNavigation',
-  version: '1.0.0',
-  homepage: 'https://github.com/Vitaa/ActiveNavigation',
-  authors: [
-    'Vitaliya Solomina'
+  "name": "ActiveNavigation",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Vitaa/ActiveNavigation",
+  "authors": [
+    "Vitaliya Solomina"
   ],
-  description: 'jQuery plugin adds an active navigation class based on the current URL.',
-  main: 'jquery.activeNavigation.js',
-  moduleType: [
-    'globals'
+  "description": "jQuery plugin adds an active navigation class based on the current URL.",
+  "main": "jquery.activeNavigation.js",
+  "moduleType": [
+    "globals"
   ],
-  keywords: [
-    'navigation',
-    'active',
-    'menu',
-    'select',
-    'highlight',
-    'url'
+  "keywords": [
+    "navigation",
+    "active",
+    "menu",
+    "select",
+    "highlight",
+    "url"
   ],
-  license: 'MIT',
-  ignore: [
-    'index.html',
-    'README*',
-    'LICENSE*',
-    'style.css',
-    '*bower.json'
+  "license": "MIT",
+  "ignore": [
+    "index.html",
+    "README*",
+    "LICENSE*",
+    "style.css",
+    "*bower.json"
   ]
 }
