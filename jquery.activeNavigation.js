@@ -8,7 +8,7 @@
         })
         if (hrefs.length) {
             hrefs.sort(function(a,b){
-                return a.attr("href").length < b.attr("href").length
+                return b.attr("href").length - a.attr("href").length
             })
             hrefs[0].closest('li').addClass("active")
         }
