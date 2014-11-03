@@ -33,3 +33,6 @@ The script will check the current page URL and compare it with the URLs in the m
 In the example above, it will add an active class to the Clients link. 
 
 If the current url is http://website.com/clients/mobile/and/something/more it will still highlight the Clients link because it is the best match.
+
+
+You can check it live at https://github.com/viewflow/karenina
